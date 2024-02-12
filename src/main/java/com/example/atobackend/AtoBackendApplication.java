@@ -17,7 +17,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class AtoBackendApplication {
 
 	private static final String API_URL = "https://api.openai.com/v1/chat/completions";
-	private static final String OPENAI_KEY = "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"; // env 뺄 것
+	private static final String OPENAI_KEY = ""; // env 뺄 것
 	private static final String MODEL = "gpt-4-0125-preview";
 //	public static void main(String[] args) {
 //		System.out.println(chatGPT2("who are you?"));
